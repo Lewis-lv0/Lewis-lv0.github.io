@@ -35,8 +35,8 @@ showSlides(0, 'slider1');
 showSlides(0, 'slider2');
 showSlides(0, 'slider3');
 
-let autoplay = false;
-let autoplayInterval = 9000; // Change slides every 5 seconds
+let autoplay = true;
+let autoplayInterval = 10000; // Change slides every 5 seconds
 
 if (autoplay) {
     setInterval(() => {
